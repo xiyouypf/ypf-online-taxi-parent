@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "用户" as User
+participant "浏览器" as Browser
+participant "Token" as Token
+
+activate User
+User -> Browser:用户手机号
+@enduml

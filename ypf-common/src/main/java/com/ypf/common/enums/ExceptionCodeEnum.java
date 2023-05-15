@@ -6,7 +6,8 @@ package com.ypf.common.enums;
  */
 public enum ExceptionCodeEnum {
     ERROR(500, "错误"),
-    VERIFICATION_CODE_ERROR(1099,"验证码不正确"),
+    VERIFICATION_CODE_ERROR(1099, "验证码不正确"),
+    ERROR_PARAM(501, "参数错误"),
     ;
     private Integer code;
     private String msg;
